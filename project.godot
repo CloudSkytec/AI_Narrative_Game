@@ -13,7 +13,7 @@ config_version=5
 config/name="AI Story Game"
 config/description="A 2D AI-driven narrative adventure game with mystery and exploration elements"
 config/version="1.0.0"
-run/main_scene="res://scenes/MainMenu.tscn"
+run/main_scene="uid://4theqf1eijrs"
 config/features=PackedStringArray("4.4")
 config/icon="res://resources/images/icon.svg"
 
@@ -25,6 +25,12 @@ StoryManager="*res://scripts/managers/StoryManager.gd"
 UIManager="*res://scripts/game/UIManager.gd"
 MapManager="*res://scripts/game/MapManager.gd"
 InventoryManager="*res://scripts/game/InventoryManager.gd"
+GameState="*res://scripts/game/GameState.gd"
+SaveSystem="res://scripts/game/SaveSystem.gd"
+
+[debug]
+
+gdscript/warnings/inference_on_variant=1
 
 [display]
 

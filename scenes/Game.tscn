@@ -1,0 +1,79 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq4t51xnp2jlm"]
+
+[ext_resource type="Script" uid="uid://8khi1qsyjwdy" path="res://scripts/Game.gd" id="1_ibkli"]
+[ext_resource type="Material" path="res://shaders/frosted_glass_ui.tres" id="2_qbsmt"]
+
+[sub_resource type="Theme" id="Theme_ve7bo"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_ve7bo")
+script = ExtResource("1_ibkli")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 1919.0
+offset_bottom = 1084.0
+
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+
+[node name="TopBar" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="SaveButton" type="Button" parent="Margin/VBox/TopBar"]
+layout_mode = 2
+text = "Save"
+
+[node name="LoadButton" type="Button" parent="Margin/VBox/TopBar"]
+layout_mode = 2
+text = "Load"
+
+[node name="MenuButton" type="Button" parent="Margin/VBox/TopBar"]
+layout_mode = 2
+text = "Menu"
+
+[node name="GlassPanel" type="TextureRect" parent="Margin/VBox"]
+material = ExtResource("2_qbsmt")
+layout_mode = 2
+
+[node name="StoryText" type="RichTextLabel" parent="Margin/VBox"]
+layout_mode = 2
+bbcode_enabled = true
+
+[node name="Choices" type="VBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+alignment = 1
+
+[node name="ProgressSeparator" type="HSeparator" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="Footer" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="ChapterLabel" type="Label" parent="Margin/VBox/Footer"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="Margin/VBox/Footer"]
+layout_mode = 2
+
+[node name="AIRequest" type="HTTPRequest" parent="."]
+
+[node name="AutoSaveTimer" type="Timer" parent="."]
+wait_time = 180.0
+autostart = true
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Toast" type="Label" parent="HUD"]
+offset_left = 191.0
+offset_top = 159.0
+offset_right = 231.0
+offset_bottom = 187.0
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1

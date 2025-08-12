@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://bl80di8y2s35f"]
+
+[ext_resource type="Script" uid="uid://dkkcwoyemqfod" path="res://scripts/AI/EndingGene.gd" id="1_tpy27"]
+
+[node name="Ending" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tpy27")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 1207.0
+offset_top = 59.0
+offset_right = 1848.0
+offset_bottom = 864.0
+
+[node name="Art" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 51.0
+offset_right = 1156.0
+offset_bottom = 874.0
+
+[node name="GenerateArt" type="Button" parent="."]
+layout_mode = 0
+offset_left = 405.0
+offset_top = 940.0
+offset_right = 578.0
+offset_bottom = 1007.0
+
+[node name="BackToMenu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1420.0
+offset_top = 927.0
+offset_right = 1588.0
+offset_bottom = 997.0

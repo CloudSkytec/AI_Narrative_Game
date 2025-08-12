@@ -1,0 +1,133 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv1ua888adiwd"]
+
+[ext_resource type="Script" uid="uid://do0oqn4woyg28" path="res://scripts/game/Privacy&Loading.gd" id="1_7nt62"]
+
+[sub_resource type="Theme" id="Theme_7nt62"]
+default_base_scale = 1.01
+default_font_size = 10
+
+[node name="Privacy&Loading" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7nt62")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1923.0
+offset_bottom = 1073.0
+theme = SubResource("Theme_7nt62")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 97.0
+offset_right = 1773.0
+offset_bottom = 815.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ScrollContainer"]
+layout_mode = 2
+text = "User Privacy Agreement: Story Generation Research Project
+1. Introduction & Purpose:
+This agreement (\"Agreement\") outlines the privacy practices concerning your participation in the interactive story generation research project conducted by [Your Name/Researcher Identifier], a postgraduate student at [Your University Name], United Kingdom, for the completion of a Master of Science (MSc) degree. The project aims to study user interaction patterns with narrative generation systems. Your participation is entirely voluntary.
+
+2. Data Collection Scope & User Consent:
+
+Data Collected: This project will collect only the following data generated during your interaction with the story system:
+
+Story Options Selected: The specific narrative choices you make during the interactive story experience.
+
+Generated Story Text: The text output of the story generated based on your choices and the system's algorithms.
+
+Excluded Data: We do not collect, request, or store:
+
+Personally Identifiable Information (PII) such as your name, email address, IP address (where technically feasible to anonymize at source), physical address, phone number, date of birth, or online identifiers.
+
+Sensitive personal data (e.g., racial/ethnic origin, political opinions, religious beliefs, health data, sexual orientation).
+
+Any data unrelated to the core story generation interaction described above.
+
+Explicit Consent Requirement: By proceeding to interact with the story generation system and selecting the option \"[I Agree to Participate]\" or equivalent affirmative action presented before interaction begins, you explicitly consent to:
+
+The recording and storage of the Story Options Selected and Generated Story Text resulting from your interaction.
+
+The use of this anonymized data strictly for the purposes outlined in Section 3 below.
+
+3. Purpose Limitation & Use of Data:
+The collected Story Options Selected and Generated Story Text data will be used exclusively for the following purposes:
+
+Academic Research: To analyze patterns in user choice-making, narrative coherence, user engagement, and the performance of story generation algorithms.
+
+Master's Thesis: To form the basis of analysis, results, and discussion within the researcher's MSc dissertation/thesis submitted to [Your University Name].
+
+Academic Presentations/Publications: Potential presentation of aggregated, anonymized findings at academic conferences or publication in scholarly journals related to computational creativity, human-computer interaction, or narrative systems. No individually attributable data will be presented or published.
+
+4. Data Anonymization & Confidentiality:
+
+Immediate Anonymization: All collected data (Story Options Selected and Generated Story Text) will be processed and stored in an entirely anonymized format. No links will be retained between the data and your identity or any personal identifier.
+
+Confidentiality: The anonymized data will be treated with strict confidentiality. Access is restricted solely to the primary researcher ([Your Name]) and their academic supervisors at [Your University Name] directly involved in guiding this Master's project.
+
+No Identification Possible: It is a fundamental principle of this research that it will be impossible to identify any individual participant from the anonymized data stored and analyzed.
+
+5. Data Security & Protection:
+
+Reasonable Safeguards: We implement appropriate technical and organizational measures (e.g., encryption of stored data, access controls, secure storage on university-approved systems/platforms) designed to protect the anonymized research data against unauthorized access, accidental loss, destruction, or damage, commensurate with the nature of the data and the risks involved.
+
+Data Minimization: Only the data strictly necessary for the research purposes defined in Section 3 is collected and retained.
+
+6. Data Retention:
+
+Retention Period: The anonymized research data will be retained only for the duration necessary to complete the Master's project, including thesis examination and potential academic publication processes, and for a limited period thereafter as required by [Your University Name]'s research data management policy for postgraduate theses (typically up to 5-10 years post-graduation).
+
+Secure Disposal: Upon expiry of the retention period, the anonymized data will be securely and permanently deleted or destroyed using university-approved methods.
+
+7. Third-Party Sharing & Transfers:
+
+No Commercial Use: The data will never be sold, leased, rented, or otherwise shared with third parties for commercial marketing, advertising, or profiling purposes.
+
+Limited Academic Sharing: Anonymized, aggregated findings (never raw data traceable to individuals) may be shared within the academic community through the thesis, conference presentations, or publications, as stated in Section 3.
+
+No International Transfer: Data will be processed and stored within secure systems located within the United Kingdom or the European Economic Area (EEA), adhering to UK GDPR standards. No intentional transfer to countries outside the UK/EEA is planned.
+
+8. User Rights:
+As the data collected is strictly anonymized and non-personal under UK GDPR (as it cannot be linked back to an identifiable individual), specific individual rights like access, rectification, or erasure of the research dataset itself may not be applicable. However, you retain the right to:
+
+Withdraw Consent: You may withdraw your consent for further data collection during an ongoing session by simply closing the story generation interface. However, due to the anonymization process, it is technically impossible to retroactively identify and remove your specific anonymized data from the research dataset once collected and aggregated. Withdrawal of consent applies only to future interactions.
+
+Request Information: You can contact the researcher (details in Section 10) to request information about the study, how data is handled, or to raise concerns.
+
+Ethics Approval: This project has been reviewed and approved by the University of Nottingham"
+
+[node name="CheckBox" type="CheckBox" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 854.0
+offset_right = 373.0
+offset_bottom = 904.0
+text = "I have read and agreed"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1403.0
+offset_top = 836.0
+offset_right = 1718.0
+offset_bottom = 913.0
+
+[node name="ContinueButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+disabled = true
+text = "Continue"
+
+[node name="QuitButton" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[node name="Privacy Policy" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "Privacy Policy:"

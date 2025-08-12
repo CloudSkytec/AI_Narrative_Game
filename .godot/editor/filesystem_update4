@@ -1,10 +1,8 @@
+res://scenes/Privacy&Loading.tscn
 res://scenes/MainMenu.tscn
-res://scripts/managers/AIManager.gd
-res://ai_config_example.json
-res://scripts/managers/DialogueManager.gd
-res://scripts/ui/MainMenu.gd
-res://scripts/managers/PCGManager.gd
-res://README.md
-res://scripts/AI/AIManager.gd
-res://version.json
-res://scenes/GameWorld.tscn
+res://scenes/Ending.tscn
+res://scenes/Main.tscn
+res://scripts/MainMenu.gd
+res://resources/images/items/AIManager.gd
+res://scenes/Game.tscn
+res://scenes/WordCloud.tscn

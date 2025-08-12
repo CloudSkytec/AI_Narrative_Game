@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://d3ehjgisrabp4"
+path="res://.godot/imported/frosted_glass_shader.glsl-977b70330be29504adc1192c5bc3f11a.res"
+
+[deps]
+
+source_file="res://scripts/ui/frosted_glass_shader.glsl"
+dest_files=["res://.godot/imported/frosted_glass_shader.glsl-977b70330be29504adc1192c5bc3f11a.res"]
+
+[params]
+
