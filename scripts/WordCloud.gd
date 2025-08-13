@@ -1,4 +1,4 @@
-# res://scripts/WordSphere.gd
+# res://scripts/WordCloud.gd
 extends Control
 
 var keywords := ["傲慢","懒惰","生气","火山","冰山","活力","忠诚","背叛","孤独","救赎"]

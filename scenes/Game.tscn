@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cq4t51xnp2jlm"]
 
 [ext_resource type="Script" uid="uid://8khi1qsyjwdy" path="res://scripts/Game.gd" id="1_ibkli"]
-[ext_resource type="Material" path="res://shaders/frosted_glass_ui.tres" id="2_qbsmt"]
+[ext_resource type="Material" uid="uid://dd42qjwneoxq2" path="res://shaders/frosted_glass_ui.tres" id="2_qbsmt"]
 
 [sub_resource type="Theme" id="Theme_ve7bo"]
 

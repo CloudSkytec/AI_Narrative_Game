@@ -13,7 +13,7 @@ config_version=5
 config/name="AI Story Game"
 config/description="A 2D AI-driven narrative adventure game with mystery and exploration elements"
 config/version="1.0.0"
-run/main_scene="uid://4theqf1eijrs"
+run/main_scene="uid://dv1ua888adiwd"
 config/features=PackedStringArray("4.4")
 config/icon="res://resources/images/icon.svg"
 

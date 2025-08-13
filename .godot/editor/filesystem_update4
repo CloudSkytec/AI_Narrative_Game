@@ -1,8 +1,15 @@
 res://scenes/Privacy&Loading.tscn
+res://scripts/AI/EndingGene.gd
+res://scripts/AI/StoryManager.gd
+res://scripts/WordCloud.gd
+res://shaders/frosted_glass_ui.tres
 res://scenes/MainMenu.tscn
+res://scripts/Game.gd
+res://scripts/game/GameState.gd
+res://scripts/AI/StoryTypes.gd
 res://scenes/Ending.tscn
 res://scenes/Main.tscn
-res://scripts/MainMenu.gd
-res://resources/images/items/AIManager.gd
 res://scenes/Game.tscn
+res://scenes/GameWorld.tscn
 res://scenes/WordCloud.tscn
+res://scripts/MainMenu.gd

@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dv1ua888adiwd"]
+[gd_scene load_steps=4 format=3 uid="uid://dv1ua888adiwd"]
 
 [ext_resource type="Script" uid="uid://do0oqn4woyg28" path="res://scripts/game/Privacy&Loading.gd" id="1_7nt62"]
+[ext_resource type="Material" uid="uid://dd42qjwneoxq2" path="res://shaders/frosted_glass_ui.tres" id="2_sgvod"]
 
 [sub_resource type="Theme" id="Theme_7nt62"]
 default_base_scale = 1.01
@@ -16,11 +17,10 @@ grow_vertical = 2
 script = ExtResource("1_7nt62")
 
 [node name="Panel" type="Panel" parent="."]
+material = ExtResource("2_sgvod")
 layout_mode = 0
-offset_left = 1.0
-offset_top = 1.0
-offset_right = 1923.0
-offset_bottom = 1073.0
+offset_right = 1920.0
+offset_bottom = 1080.0
 theme = SubResource("Theme_7nt62")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
@@ -103,6 +103,10 @@ Withdraw Consent: You may withdraw your consent for further data collection duri
 Request Information: You can contact the researcher (details in Section 10) to request information about the study, how data is handled, or to raise concerns.
 
 Ethics Approval: This project has been reviewed and approved by the University of Nottingham"
+fit_content = true
+scroll_following = true
+autowrap_mode = 0
+vertical_alignment = 1
 
 [node name="CheckBox" type="CheckBox" parent="."]
 layout_mode = 0

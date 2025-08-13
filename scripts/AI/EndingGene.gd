@@ -1,4 +1,4 @@
-## Ending.gd
+## EndingGene.gd
 extends Control
 
 @onready var story_view: RichTextLabel = $VBoxContainer/StoryText

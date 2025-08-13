@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755011701
+::res://::1755031125
 ai_config_example.json::JSON/JSON::-1::1754018622::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1754018208::0::1::::<><><>0<>0<><>::
 version.json::JSON/JSON::-1::1754018600::0::1::::<><><>0<>0<><>::
@@ -16,9 +16,10 @@ README.md::TextFile/TextFile::-1::1753887215::0::1::::<><><>0<>0<><>::
 Xolonium-Regular.ttf::FontFile/FontFile::4458571985031135678::1754019203::1754834270::1::::<><><>0<>0<>8f5ea8c3dd4bc68a82cf26dfa55824a1<>res://.godot/imported/Xolonium-Regular.ttf-df18f64cbb183931ded01dd489941db9.fontdata::
 ::res://resources/images/::1754019177
 icon.svg::CompressedTexture2D/CompressedTexture2D::3691411137471062248::1753887215::1753887301::1::::<><><>0<>0<>7b41e1274d7e8775cce1bcb6694034c2<>res://.godot/imported/icon.svg-edd4af879147cb69cb4e2f40fc4a4b7d.ctex::
-::res://resources/images/items/::1755012859
+::res://resources/images/items/::1755037847
 clue.svg::CompressedTexture2D/CompressedTexture2D::5538108117214348690::1753887215::1753887300::1::::<><><>0<>0<>11c70ee74d127aa11e49343a1f257490<>res://.godot/imported/clue.svg-58876e654a4f0321832a7369d1bc0e73.ctex::
 key.svg::CompressedTexture2D/CompressedTexture2D::28193486661252717::1753887215::1753887300::1::::<><><>0<>0<>d45814ba9bf9bcc6f72962faeae5bfcd<>res://.godot/imported/key.svg-5cd7a24e1b87d6e164f5ea1f22cd91e5.ctex::
+noise.png::CompressedTexture2D::1503723221838446632::1754970492::1755037851::1::::<><><>0<>0<>69ddfa7b69ead591b36ddc8a9127a89d<>res://.godot/imported/noise.png-a0c7ab1a94f63f487e629949088f892a.ctex::
 ::res://resources/images/maps/::1754019114
 library.svg::CompressedTexture2D/CompressedTexture2D::799224050221424745::1753887215::1753887301::1::::<><><>0<>0<>64db61fb510a11ce35dff3c24b3c1cfb<>res://.godot/imported/library.svg-9f386bfa5af15e668e89968973f39675.ctex::
 mansion.svg::CompressedTexture2D/CompressedTexture2D::2197259767753189196::1753887215::1753887301::1::::<><><>0<>0<>208db7af2ce1e8f7ff4904ee5bfd58ff<>res://.godot/imported/mansion.svg-23f22f9ef1d4d5209d299d5197703123.ctex::
@@ -33,35 +34,36 @@ playerGrey_up1.png::CompressedTexture2D/CompressedTexture2D::974241542119145893:
 playerGrey_up2.png::CompressedTexture2D/CompressedTexture2D::2894450930042177336::1754019181::1754834270::1::::<><><>0<>0<>73a47f09e420db7cf074529bca56f6dd<>res://.godot/imported/playerGrey_up2.png-b038bdcad4326b7a7302db507d549f8c.ctex::
 playerGrey_walk1.png::CompressedTexture2D/CompressedTexture2D::2207990493696842018::1754019181::1754834270::1::::<><><>0<>0<>90279d36a108542fba5f79fa679ae594<>res://.godot/imported/playerGrey_walk1.png-7c6713c7f1b59b52671ac526583f9cd8.ctex::
 playerGrey_walk2.png::CompressedTexture2D/CompressedTexture2D::2580979316938664189::1754019181::1754834270::1::::<><><>0<>0<>072a506da12d83775ad257bf3295a279<>res://.godot/imported/playerGrey_walk2.png-05e3fe2b7b0e9a80b7085f5e37bb3a23.ctex::
-::res://resources/images/ui/::1755024351
+::res://resources/images/ui/::1755024625
 button.svg::CompressedTexture2D/CompressedTexture2D::1111284783835000620::1753887215::1753887301::1::::<><><>0<>0<>297b93efbe3b04f4b40c713b0dac2ab9<>res://.godot/imported/button.svg-0897d3eded1e51f4b8da289ed586652b.ctex::
 panel.svg::CompressedTexture2D/CompressedTexture2D::8946757552460472329::1753887215::1753887301::1::::<><><>0<>0<>20fddc53b2c87b01dc2247f511e3a017<>res://.godot/imported/panel.svg-3c2036b6677be3ef1a3c55cfcdcba66b.ctex::
-PlayerUI.png::CompressedTexture2D::7571090709010102057::1755024167::1755024624::1::::<><><>0<>0<>da7ec256ebef5b4ccf49b02382af722e<>res://.godot/imported/PlayerUI.png-e37d0e07a6e13c639ea2c754cd146b30.ctex::
-UI BK3_全息框架_02.png::CompressedTexture2D::4032593566188859961::1755024099::1755024624::1::::<><><>0<>0<>0204f1cace0eebb07d47c4e870da42e0<>res://.godot/imported/UI BK3_全息框架_02.png-a549d9841cadaaddb3b6cf551599d573.ctex::
-UI BK3_全息框架故事小组.png::CompressedTexture2D::7810434402031136401::1755024122::1755024624::1::::<><><>0<>0<>72a60d4e0e72a390ea735f06ac08afdc<>res://.godot/imported/UI BK3_全息框架故事小组.png-fefd146b9cd0fdfa5529547aff04110d.ctex::
-UI CRB 泛型加载屏幕.png::CompressedTexture2D::3784021240810647179::1755024352::1755024625::1::::<><><>0<>0<>7d7ac85319c9137903ab8b57f4d27426<>res://.godot/imported/UI CRB 泛型加载屏幕.png-28f5dcfc824f77c2c93ef78bb05d2064.ctex::
-对话框中气泡 TEMP_228_250.png::CompressedTexture2D::8584568994939627988::1755024070::1755024624::1::::<><><>0<>0<>4e41b83ed2f1740e84c55afd7bdacdc7<>res://.godot/imported/对话框中气泡 TEMP_228_250.png-721c84ccd8a4cd83ca10956dd9135048.ctex::
-用户界面 Datachron_0_0.png::CompressedTexture2D::8097473452115403514::1755024143::1755024624::1::::<><><>0<>0<>70c2630e6c8744eddcbb8f21f545c782<>res://.godot/imported/用户界面 Datachron_0_0.png-9d0b762e3b4a6c3eb2e7523fad276fec.ctex::
-::res://scenes/::1755014421
-Game.tscn::PackedScene::5956938418891546318::1754970326::0::1::::<><><>0<>0<><>::uid://8khi1qsyjwdy::::res://scripts/Game.gd
-GameWorld.tscn::PackedScene::8113888276871460783::1754969730::0::1::::<><><>0<>0<><>::
+PlayerUI.png::CompressedTexture2D/CompressedTexture2D::7571090709010102057::1755024167::1755024624::1::::<><><>0<>0<>da7ec256ebef5b4ccf49b02382af722e<>res://.godot/imported/PlayerUI.png-e37d0e07a6e13c639ea2c754cd146b30.ctex::
+UI BK3_全息框架_02.png::CompressedTexture2D/CompressedTexture2D::4032593566188859961::1755024099::1755024624::1::::<><><>0<>0<>0204f1cace0eebb07d47c4e870da42e0<>res://.godot/imported/UI BK3_全息框架_02.png-a549d9841cadaaddb3b6cf551599d573.ctex::
+UI BK3_全息框架故事小组.png::CompressedTexture2D/CompressedTexture2D::7810434402031136401::1755024122::1755024624::1::::<><><>0<>0<>72a60d4e0e72a390ea735f06ac08afdc<>res://.godot/imported/UI BK3_全息框架故事小组.png-fefd146b9cd0fdfa5529547aff04110d.ctex::
+UI CRB 泛型加载屏幕.png::CompressedTexture2D/CompressedTexture2D::3784021240810647179::1755024352::1755024625::1::::<><><>0<>0<>7d7ac85319c9137903ab8b57f4d27426<>res://.godot/imported/UI CRB 泛型加载屏幕.png-28f5dcfc824f77c2c93ef78bb05d2064.ctex::
+对话框中气泡 TEMP_228_250.png::CompressedTexture2D/CompressedTexture2D::8584568994939627988::1755024070::1755024624::1::::<><><>0<>0<>4e41b83ed2f1740e84c55afd7bdacdc7<>res://.godot/imported/对话框中气泡 TEMP_228_250.png-721c84ccd8a4cd83ca10956dd9135048.ctex::
+用户界面 Datachron_0_0.png::CompressedTexture2D/CompressedTexture2D::8097473452115403514::1755024143::1755024624::1::::<><><>0<>0<>70c2630e6c8744eddcbb8f21f545c782<>res://.godot/imported/用户界面 Datachron_0_0.png-9d0b762e3b4a6c3eb2e7523fad276fec.ctex::
+::res://scenes/::1755036857
+Ending.tscn::PackedScene::3228146184088925169::1755014421::0::1::::<><><>0<>0<><>::uid://dkkcwoyemqfod::::res://scripts/AI/EndingGene.gd
+Game.tscn::PackedScene::5956938418891546318::1755030540::0::1::::<><><>0<>0<><>::uid://8khi1qsyjwdy::::res://scripts/Game.gd<>res://shaders/frosted_glass_ui.tres
+GameWorld.tscn::PackedScene/PackedScene::8113888276871460783::1754969730::0::1::::<><><>0<>0<><>::
 Main.tscn::PackedScene::6696866345513285274::1755014421::0::1::::<><><>0<>0<><>::
 MainMenu.tscn::PackedScene::2075132654239675896::1755014421::0::1::::<><><>0<>0<><>::uid://dpgq1iuxyexu::::res://scripts/MainMenu.gd
-Privacy&Loading.tscn::PackedScene::8688117714687464071::1755014421::0::1::::<><><>0<>0<><>::uid://do0oqn4woyg28::::res://scripts/game/Privacy&Loading.gd
-Ending.tscn::PackedScene::3228146184088925169::1755014421::0::1::::<><><>0<>0<><>::uid://dkkcwoyemqfod::::res://scripts/AI/EndingGene.gd
-WordCloud.tscn::PackedScene::8842888832590324212::1754969733::0::1::::<><><>0<>0<><>::uid://chekliuxuwsy2::::res://scripts/WordCloud.gd
-::res://scripts/::1755014421
-Game.gd::GDScript::2337316314070534238::1754969165::0::1::::<>Control<><>0<>0<><>::
-MainMenu.gd::GDScript::241926450790002914::1755014421::0::1::::<>Control<><>0<>0<><>::
-WordCloud.gd::GDScript::5273048049684803683::1754964846::0::1::::<>Control<><>0<>0<><>::
-::res://scripts/AI/::1754960505
-EndingGene.gd::GDScript::7881955759052286259::1754956731::0::1::::<>Control<><>0<>0<><>::
-StoryExplorer.gd::GDScript::5711710649345188133::1754956731::0::1::::<>Control<><>0<>0<><>::
-StoryManager.gd::GDScript::8651830061256972897::1754956731::0::1::::<>Node<><>0<>0<><>::
+Privacy&Loading.tscn::PackedScene::8688117714687464071::1755036857::0::1::::<><><>0<>0<><>::uid://do0oqn4woyg28::::res://scripts/game/Privacy&Loading.gd
+WordCloud.tscn::PackedScene::8842888832590324212::1755030544::0::1::::<><><>0<>0<><>::uid://chekliuxuwsy2::::res://scripts/WordCloud.gd
+::res://scripts/::1755036792
+Game.gd::GDScript/GDScript::2337316314070534238::1754969165::0::1::::<>Control<><>0<>0<><>::
+MainMenu.gd::GDScript::241926450790002914::1755030540::0::1::::<>Control<><>0<>0<><>::
+WordCloud.gd::GDScript::5273048049684803683::1755036792::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/AI/::1755036857
+EndingGene.gd::GDScript::7881955759052286259::1755036792::0::1::::<>Control<><>0<>0<><>::
+StoryExplorer.gd::GDScript/GDScript::5711710649345188133::1754956731::0::1::::<>Control<><>0<>0<><>::
+StoryManager.gd::GDScript::8651830061256972897::1755036857::0::1::::<>Node<><>0<>0<><>::
 ::res://scripts/game/::1755011653
-GameState.gd::GDScript::5453107895053817954::1754965408::0::1::::<>Node<><>0<>0<><>::
+GameState.gd::GDScript/GDScript::5453107895053817954::1754965408::0::1::::<>Node<><>0<>0<><>::
 Main.gd::GDScript/GDScript::8463377159185480916::1754960560::0::1::::<>Node<><>0<>0<><>::
-Privacy&Loading.gd::GDScript::8194394645086578927::1754964467::0::1::::<>Control<><>0<>0<><>::
-SaveSystem.gd::GDScript::5616941921150826476::1754965756::0::1::::SaveSystem<>Node<><>0<>0<><>::
-::res://shaders/::1754960488
-frosted_glass.gdshader::Shader::9133248603394051567::1754960488::0::1::::<><><>0<>0<><>::
+Privacy&Loading.gd::GDScript/GDScript::8194394645086578927::1754964467::0::1::::<>Control<><>0<>0<><>::
+SaveSystem.gd::GDScript/GDScript::5616941921150826476::1754965756::0::1::::SaveSystem<>Node<><>0<>0<><>::
+::res://shaders/::1755029311
+frosted_glass.gdshader::Shader/Shader::9133248603394051567::1754960488::0::1::::<><><>0<>0<><>::
+frosted_glass_ui.tres::ShaderMaterial::-1::1754970492::0::1::::<><><>0<>0<><>::res://shaders/frosted_glass.gdshader<>res://art/noise.png
